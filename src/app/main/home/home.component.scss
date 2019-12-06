@@ -1,0 +1,57 @@
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.hero-text {
+  h4,
+  p {
+    font-size: 1.2em;
+    font-family: "Lobster Two", cursive;
+  }
+  h4{
+
+    font-size: 1.5em;
+  }
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  z-index: 9;
+  width: 35%;
+  transform: translate(-50%, -50%);
+}
+.button-gold
+{
+  padding: 1em;
+  background: transparent;
+  border:1px solid black;
+  color: black;
+  font-family: "Lobster Two", cursive;
+}
+.hero-background {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://www.123freevectors.com/wp-content/original/119411-abstract-gold-background-illustration.jpg);
+}
+.hero-product-item {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  img {
+    width: 80%;
+  }
+}
+.separator{
+  height: 5px;
+  background: white;
+  width: 100%;
+}
+section{
+  padding: 20px;
+  .section-title{
+    text-align: center;
+  }
+}

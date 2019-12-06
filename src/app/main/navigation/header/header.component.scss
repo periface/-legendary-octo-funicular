@@ -1,0 +1,43 @@
+.brand{
+  font-family: 'Lobster Two', cursive;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+.brand{
+  color: black !important;
+}
+.navigation-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+    li {
+      a {
+        color: black !important;
+        font-family: 'Lobster Two', cursive;
+      }
+    }
+
+}
+mat-toolbar {
+  border-radius: 3px;
+  position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+@media (max-width: 959px) {
+  mat-toolbar {
+    border-radius: 0px;
+  }
+}
+mat-toolbar {
+  background-color: transparent !important;
+  color: black !important;
+}
